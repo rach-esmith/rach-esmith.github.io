@@ -1,0 +1,120 @@
+body {
+	background-color: #999999;
+	text-align: center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	background-image: url(images/bg_texture.gif);
+	backgound-repeat: repeat;
+	background-repeat: repeat;
+}
+
+h1 {
+	color: #2A3F55;
+	margin-top: 0em;
+	font-size: 3em;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+
+h2 {
+	color: #2A3F55;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	margin-top: 1.5em;
+}
+
+h3 {
+	color: #2A3F55;
+	margin-top: 1.5em;
+}
+
+p {
+	font-size: .9em;
+}
+
+dd {
+	font-size: .9em;
+}
+
+dt {
+	margin-top: 1em;
+	margin-right: 0em;
+	margin-bottom: 0em;
+	margin-left: 0em;
+}
+
+#container {
+	background-color: white;
+	text-align: left;
+	width: 780px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 50px;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 50px;
+	border-left-width: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	border-right: 2px solid #333;
+	border-bottom: 2px solid #333;
+}
+
+#header {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	width: 780px;
+	background-image: url(images/bg_dot.gif);
+	background-repeat: repeat;
+}
+
+#header h1 {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 50px;
+}
+
+#content {
+	margin-top: 15px;
+	margin-bottom: 0px;
+	padding-top: 0;
+	padding-left: 10px;
+	padding-bottom: 0px;
+	margin-left: 250px;
+	padding-right: 15px;
+	margin-right: 0px;
+}
+
+#sidebar {
+	background-image: url(images/grey_rnd_rect.gif);
+	width: 215px;
+	height: 315px;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-bottom: 0px;
+	float: right;
+	margin-right: 20px;
+	background-repeat: no-repeat;
+}
+
+#sidebar_content {
+	width: 180px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-right: 20px;
+}

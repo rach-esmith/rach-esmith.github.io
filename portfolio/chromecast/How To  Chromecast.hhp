@@ -1,0 +1,45 @@
+﻿[OPTIONS]
+Compiled File=How To  Chromecast.chm
+Title=How To  Chromecast
+Contents File=How To  Chromecast.hhc
+Index File=How To  Chromecast.hhk
+Default topic=First_Topic.htm
+Default Window=
+Error log file=
+Display compile progress=No
+Display compile notes=No
+Full-text search=Yes
+Binary Index=Yes
+Auto Index=No
+Enhanced decompilation=No
+Binary TOC=No
+Flat=No
+LANG_ID=1033
+LANG_NAME=English (US)
+
+[WINDOWS]
+
+[FILES]
+New_Topic2.htm
+New_Topic1.htm
+New_Topic.htm
+First_Topic.htm
+New_Topic3.htm
+!ScreenLayout!\Theme1_Standard\jquery.js
+!ScreenLayout!\Theme1_Standard\jqueryui-custom.js
+!ScreenLayout!\Theme1_Standard\overthrow.min.js
+!ScreenLayout!\Theme1_Standard\overthrow.sidescroller.min.js
+!ScreenLayout!\Theme1_Standard\layout.js
+
+How To  Chromecast.glo
+How To  Chromecast.brs
+[ALIAS]
+#include How To  Chromecast.ali
+
+[MAP]
+#include BSSCDefault.h
+
+[TEXT POPUPS]
+BSSCDefault.h
+
+

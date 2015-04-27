@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<toc version="1.0">
+	<properties imagewidth="16" windowstyles="8388610" exwindowstyles="256">
+	</properties>
+	<item name="Introduction" link="First_Topic.htm">
+	</item>
+	<item name="Preparing a Chromecast for Use" link="New_Topic.htm">
+	</item>
+	<item name="Setting up Google Cast on Your Laptop" link="New_Topic1.htm">
+	</item>
+	<item name="Casting from a Phone or Tablet" link="New_Topic2.htm">
+	</item>
+	<item name="Streaming from Google Chrome to Your TV" link="New_Topic3.htm">
+	</item>
+</toc>

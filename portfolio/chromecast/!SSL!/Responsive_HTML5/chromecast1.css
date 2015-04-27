@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+#rh_default_topic_placeholder_id {
+                                  font-family:"Lucida Grande" , "Lucida Sans Unicode" , "Lucida Sans" , "DejaVu Sans" , Verdana, sans-serif;
+                                  top:2px;
+                                  width:1150px;
+                                  padding-bottom:35px;
+}
+#rh_default_topic_placeholder_id h1 {
+                                     padding-top:20px;
+                                     margin-bottom:-5px;
+}
+#rh_default_topic_placeholder_id #note {
+                                        background-color:#018B4F;
+                                        padding-left:10px;
+                                        padding-top:5px;
+                                        padding-right:10px;
+                                        padding-bottom:5px;
+}
+#rh_default_topic_placeholder_id a#link:link {
+                                              color:#2269A5;
+}
+#rh_default_topic_placeholder_id a#link:visited {
+                                                 color:#3F8644;
+}
+#rh_default_topic_placeholder_id a#link:hover {
+                                               color:#C96556;
+}
+#rh_default_topic_placeholder_id a#link:active {
+                                                color:#C96556;
+}
+#rh_default_topic_placeholder_id a#notelink:link {
+                                                  color:white;
+}
+#rh_default_topic_placeholder_id a#notelink:visited {
+                                                     color:#E9C070;
+}
+#rh_default_topic_placeholder_id a#notelink:hover {
+                                                   color:#2269A5;
+}
+#rh_default_topic_placeholder_id a#notelink:active {
+                                                    color:#2269A5;
+}
+#rh_default_topic_placeholder_id .content li {
+                                              line-height:140%;
+                                              margin-bottom:10px;
+                                              width:auto;
+}
+#rh_default_topic_placeholder_id .nav {
+                                       align-content:center;
+}
+#rh_default_topic_placeholder_id .nav ul {
+                                          list-style-type:none;
+                                          margin:0;
+                                          padding:0;
+}
+#rh_default_topic_placeholder_id .nav li {
+                                          float:left;
+}
+#rh_default_topic_placeholder_id .nav a:link {
+                                              display:block;
+                                              width:200px;
+                                              height:35px;
+                                              color:black;
+                                              background-color:#639CD3;
+                                              text-decoration:none;
+                                              text-align:center;
+                                              border:3px solid black;
+                                              margin:1px;
+                                              padding:10px;
+}
+#rh_default_topic_placeholder_id a:visited {
+                                            display:block;
+                                            width:200px;
+                                            height:35px;
+                                            color:black;
+                                            background-color:#639CD3;
+                                            text-decoration:none;
+                                            text-align:center;
+                                            border:3px solid black;
+                                            margin:1px;
+                                            padding:10px;
+}
+#rh_default_topic_placeholder_id .nav a:hover {
+                                               color:white;
+                                               background-color:#2269A5;
+                                               border:3px solid white;
+}
+#rh_default_topic_placeholder_id a:active {
+                                           color:white;
+                                           background-color:#2269A5;
+                                           border:3px solid white;
+}
+#rh_default_topic_placeholder_id #current {
+                                           color:white;
+                                           background-color:#2269A5;
+                                           border:3px solid white;
+}

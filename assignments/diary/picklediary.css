@@ -1,0 +1,42 @@
+body {
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 1px solid black;
+    padding: 10px 10px 10px;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    font-size: small;
+    background-color: #5a729f;
+    color: white;
+}
+
+h1, h2 {
+    font-weight: normal;
+    color: #ffdc4e;
+    border-bottom: thin solid black;
+}
+
+h1 {
+    font-size: 170%;
+}
+
+h2 {
+    font-size: 130%;
+}
+
+blockquote {
+    font-style: italic;
+}
+
+img {
+    border: 5px solid black;
+}
+
+.left {
+    float: left;
+    margin-right: 10px;
+}
+
+.right {
+    float: right;
+    margin-left: 10px;
+}

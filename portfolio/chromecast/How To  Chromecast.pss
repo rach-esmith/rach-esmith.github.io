@@ -1,0 +1,103 @@
+﻿[Target:WebHelp Pro]
+ResultFileName=!SSL!\WebHelp_Pro\How_To_Chromecast.htm
+SSLayoutType=32
+ServerProjectName=How To  Chromecast
+CreateProjectTime=
+CreateProjectUser=
+SupportMas_MPJ=1
+[Target:WebHelp]
+ResultFileName=!SSL!\WebHelp\index.htm
+SSLayoutType=2
+CreateProjectTime=13:21, March 11, 2015
+CreateProjectUser=recycle 2011
+SupportMas_MPJ=1
+ActionID For Generation=1001
+Remove Folder with prompt=1
+ViewFileName=!SSL!\WebHelp\index.htm
+ResultStatus=0
+BuildTimeHi=30432287
+BuildTimeLow=-517971145
+[Target:Microsoft HTML Help]
+ResultFileName=!SSL!\Microsoft_HTML_Help\How_To_Chromecast.chm
+SSLayoutType=1
+CreateProjectTime=
+CreateProjectUser=
+SupportMas_MPJ=1
+[Target:FlashHelp]
+ResultFileName=!SSL!\FlashHelp\How_To_Chromecast.htm
+SSLayoutType=2
+CreateProjectTime=
+CreateProjectUser=
+SupportMas_MPJ=1
+[Target:Printed Documentation]
+ResultFileName=!SSL!\Printed_Documentation\How_To_Chromecast.doc
+SSLayoutType=7
+[Target:XML Output]
+ResultFileName=!SSL!\XML_Output\How_To_Chromecast.xml
+SSLayoutType=8129
+[Target:FlashHelp Pro]
+ResultFileName=!SSL!\FlashHelp_Pro\How_To_Chromecast.htm
+SSLayoutType=2
+CreateProjectTime=
+CreateProjectUser=
+SupportMas_MPJ=1
+[Target:Adobe AIR]
+ResultFileName=!SSL!\Adobe_AIR\How_To_Chromecast.air
+SSLayoutType=512
+CreateProjectTime=
+CreateProjectUser=
+SupportMas_MPJ=1
+[Target:Multiscreen HTML5]
+ResultFileName=!SSL!\Multiscreen_HTML5\How_To_Chromecast.htm
+SSLayoutType=2
+CreateProjectTime=
+CreateProjectUser=
+SupportMas_MPJ=1
+[Target:eBook]
+ResultFileName=!SSL!\eBook\How_To_Chromecast.epub
+SSLayoutType=2
+CreateProjectTime=
+CreateProjectUser=
+SupportMas_MPJ=1
+[Target:Responsive HTML5]
+ResultFileName=!SSL!\Responsive_HTML5\index.htm
+SSLayoutType=2
+CreateProjectTime=14:04, March 11, 2015
+CreateProjectUser=recycle 2011
+SupportMas_MPJ=1
+ActionID For Generation=1001
+Remove Folder with prompt=1
+ViewFileName=!SSL!\Responsive_HTML5\index.htm
+ResultStatus=0
+BuildTimeHi=30432293
+BuildTimeLow=-532303856
+[PreSingleSource]
+Html Help Project=C:\Users\recycle 2011\Desktop\chromecast\How To  Chromecast.hhp
+Table Of Content=C:\Users\recycle 2011\Desktop\chromecast\How To  Chromecast.hhc
+Index=C:\Users\recycle 2011\Desktop\chromecast\How To  Chromecast.hhk
+Topic Index=C:\Users\recycle 2011\Desktop\chromecast\RHTopicKeyword$.hhk
+See Also Index=C:\Users\recycle 2011\Desktop\chromecast\How To  Chromecast.hha
+Browse Sequence=C:\Users\recycle 2011\Desktop\chromecast\How To  Chromecast.brs
+Glossary=C:\Users\recycle 2011\Desktop\chromecast\How To  Chromecast.glo
+Topic Properties=C:\Users\recycle 2011\Desktop\chromecast\How To  Chromecast.trs
+Active Folders=C:\Users\recycle 2011\Desktop\chromecast\How To  Chromecast.trf
+Baggage Files=C:\Users\recycle 2011\Desktop\chromecast\How To  Chromecast.trb
+Skin List=C:\Users\recycle 2011\Desktop\chromecast\How To  Chromecast.trk
+Active Layout Names=C:\Users\recycle 2011\Desktop\chromecast\How To  Chromecast.trl
+Template Files=C:\Users\recycle 2011\Desktop\chromecast\How To  Chromecast.trt
+Project TOC List=C:\Users\recycle 2011\Desktop\chromecast\How To  Chromecast.trtocl
+Project Index List=C:\Users\recycle 2011\Desktop\chromecast\How To  Chromecast.tridxl
+Project Glossary List=C:\Users\recycle 2011\Desktop\chromecast\How To  Chromecast.trglol
+Project CSS List=C:\Users\recycle 2011\Desktop\chromecast\How To  Chromecast.trcss
+Project Variable Set List=C:\Users\recycle 2011\Desktop\chromecast\How To  Chromecast.trvset
+External URL Settings=C:\Users\recycle 2011\Desktop\chromecast\SearchOptions.xml
+Screen Template File Details=C:\Users\recycle 2011\Desktop\chromecast\How To  Chromecast.sctfdl
+CPSwfToHTML5Map=C:\Users\recycle 2011\Desktop\chromecast\__cpSwf2HTML5ZipMap
+Default Topic=C:\Users\recycle 2011\Desktop\chromecast\First_Topic.htm
+Build Tags0=26521;Online | Print
+Build Tags=
+Build Expression=
+Language ID=1033
+Language Name=en_US
+Language=C:\Users\recycle 2011\Desktop\chromecast\!Language!\en_US\RoboHHRE.lng
+Stop List=C:\Users\recycle 2011\Desktop\chromecast\!Language!\en_US\How To  Chromecast.stp

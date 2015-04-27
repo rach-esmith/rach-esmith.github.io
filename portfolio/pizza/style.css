@@ -1,0 +1,163 @@
+body
+{
+    font-family: Helvetica, Arial, sans-serif;
+    background-image: url(black_diagonal_stripes_background_seamless.gif);
+    margin: 0;
+    padding: 0;
+}
+
+#contact
+{
+    float: right;
+    font-size: 13px;
+    margin-right: 20px;
+    margin-top: 5px;
+    color: #444;
+}
+
+#logo
+{
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+
+a:nth-child(1)
+{
+    margin-left: 35px;
+}
+
+#us
+{
+    width: 410px;
+    float: left;
+    margin: 10px;
+    margin-right: 15px;
+}
+
+a
+{
+    color: #cd5445;
+    background-color: #f0d300;
+    width: 190px;
+    height: 15px;
+    float: left;
+    display: block;
+    margin-left: 4px;
+    margin-right: 4px;
+    padding: 5px;
+    text-decoration: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-weight: 400;
+    text-align: center;
+}
+
+a:hover, .active
+{
+    background-color: #cd5445;
+    color: white;
+}
+
+#everything
+{
+    background-color: white;
+    margin: 0px auto;
+    width: 900px;
+    height: 100%;
+        overflow: scroll;
+
+/*
+    border: 1px solid red;
+    border-top-color: white;
+    height: 700px;
+*/
+}
+
+#footer
+{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    left: 0;
+    right: 0;
+    color: white;
+    background-color: #cd5445;
+    padding: 5px;
+    margin: 0px auto;
+    width: 890px;
+}
+
+input, textarea
+{
+    border: 1px solid #ccc;
+}
+
+#redspacer
+{
+    margin-top: 25px;
+    background-color: #cd5445;
+    width: 100%;
+    height: 8px;
+}
+
+table.orders
+{
+    margin: 0px auto;
+}
+
+table td.cost
+{
+	padding-left: 25px;
+	text-align: right;
+}
+
+table td.size
+{
+	padding-left: 25px;
+	font-size: 10px;
+}
+
+
+span.small
+{
+	font-size: 10px
+}
+
+table td.indent
+{
+	padding-left: 20px;
+}
+
+h1
+{
+	font-size: 20px;
+	margin-bottom: 0px;
+}
+
+p.cost
+{
+	float: right;
+	margin-right:40em;
+}
+
+p.food
+{
+	float: left;
+}
+
+#menupics
+{
+	float: right;
+	margin-right: 80px;
+}
+
+#content
+{
+    padding: 20px;
+    padding-top: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    border: 8px solid #cd5445;
+    border-top-width: 0px;
+    border-top-color: white;
+}

@@ -1,0 +1,86 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	top: 2px;
+	width: 1150px;
+	padding-bottom: 35px;
+}
+
+h1 {
+	padding-top: 20px;
+	margin-bottom: -5px;
+}
+
+#note {
+	background-color: #018B4F;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+}
+
+a#link:link {
+	color:#2269A5;
+}
+
+a#link:visited {
+	color:#3F8644;
+}
+
+a#link:hover, a#link:active {
+	color:#C96556;
+}
+
+a#notelink:link {
+	color:white;
+}
+
+a#notelink:visited {
+	color:#E9C070;
+}
+
+a#notelink:hover, a#notelink:active {
+	color:#2269A5;
+}
+
+.content li {
+	line-height: 140%;
+	margin-bottom: 10px;
+	width: auto;
+}
+
+.nav {
+	align-content:center;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav a:link, a:visited {
+	display: block;
+	width: 200px;
+	height: 35px;
+	color: black;
+	background-color: #639CD3;
+	text-decoration: none;
+	text-align: center;
+	border: 3px solid black;
+	margin: 1px;
+	padding: 10px;
+}
+
+.nav a:hover, a:active, #current {
+	color: white;
+	background-color: #2269A5;
+	border: 3px solid white;
+}
+	
