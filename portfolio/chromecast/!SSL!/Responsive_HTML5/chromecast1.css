@@ -19,6 +19,10 @@
                                         padding-right:10px;
                                         padding-bottom:5px;
 }
+#xmlEditorButtonBarIDX, #xmlEditorButtonBarGLO, #xmlEditorIDXSidebarButton, #xmlEditorButtonBarGLOSidebarButton
+{
+    display: none;
+}
 #rh_default_topic_placeholder_id a#link:link {
                                               color:#2269A5;
 }
