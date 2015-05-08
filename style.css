@@ -5,10 +5,14 @@ body
 }
 
 
-a:link {color:#47deb5;text-decoration: none}      /* unvisited link */
-a:visited {color: #47deb5;text-decoration: none}  /* visited link */
+a:link {color:#3dbdee;text-decoration: none}      /* unvisited link */
+a:visited {color: #3dbdee;text-decoration: none}  /* visited link */
 a:hover {color: #6E6E6E;text-decoration: none}  /* mouse over link */
-a:active {color: #47deb5;text-decoration: none}  /* selected link */
+a:active {color: #3dbdee;text-decoration: none}  /* selected link */
+
+#nav a:link {color:#47deb5;text-decoration: none}
+#nav a:visited {color: #47deb5;text-decoration: none}
+#nav a:active {color: #47deb5;text-decoration: none}
 
 #nav li
 {
@@ -158,6 +162,12 @@ li span {
     margin: 0 auto;
     padding: 15px;
     border: 1px solid #e8e8e8;
+}
+
+#me
+{
+    float: right;
+    margin-left: 10px;
 }
 
 #banner

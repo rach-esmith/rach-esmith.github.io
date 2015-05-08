@@ -6,19 +6,24 @@
     <div id="everything">
         <img id="logo" src="../logo.png" alt="logo" />
         <div id="contact"><br />175 Littleton Road<br/ >Westford, MA 01886<br />(978) 692-3406</div>
+                <div id="hours"><br/>Open Monday - Thursday: 10 AM - 9 PM<br/>Friday - Saturday: 10am - 10pm<br/><span class="closed">Closed Sundays</span></div>
         <div id="nav">
             <a href="..">Home</a> <a href="../menu">Menu</a> <a href="../contact">Contact</a> <a href="../order" class="active">Order Online</a>
         </div>
         <div id="redspacer"></div>
         <div id="content">
+            <p>Fill out the form below and order your meal online! We'll start making your food right away for you to pick up or have delivered to you free of charge. Please note that payment for deliveries is cash-only.</p>
         <table class="order">
             <tr><td>Your Name</td><td><input></input></td></tr>
             <tr><td>Phone Number</td><td><input></input></td></tr>
             <tr><td>Email Address</td><td><input></input></td></tr>
-            <tr><td><input type="checkbox"><label for="checkbox">Carry-out </label></td><td>
-              <input type="checkbox" name="checkbox" id="checkbox">
-          <label for="checkbox">Delivery </label></td></tr>
+            <tr><form action=""><td>
+                    <input type="radio" name="sex" value="male">Carry-Out</td>
+                    <td><input type="radio" name="sex" value="female">Delivery
+                </td></form></tr>
             <tr><td>Delivery Address</td><td><input></input></td></tr>
+            <tr><td>City</td><td><input></input></td></tr> 
+            <tr><td>State</td><td><input></input></td></tr>
             <tr><td>Your Order</td><td>
                 <textarea cols=40 rows=3>
                 </textarea>
@@ -29,6 +34,10 @@
                 </td></tr>
 <tr><td></td><td align='right'><button onclick="alert('Your order has been placed! Thank you.');">Place Order</button></td></tr>
         </table>
+<br/>
+            <br/>
+            <br/>
+            <br/>
         </div>
         <div id="footer">&copy; 2010 - 2015 Sandrino's</div>
     </div>
