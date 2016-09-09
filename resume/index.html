@@ -14,6 +14,19 @@
   ga('send', 'pageview');
 
 </script>
+    
+<script>
+function toggleContainer(id)
+{
+		var elem = document.getElementById(id);
+		if (elem.style.display == "none")
+				elem.style.display = "block";
+		else
+				elem.style.display = "none";
+}
+</script>
+
+
     </head>
     <body>
         <div id="main">
@@ -34,42 +47,30 @@
 	<h2>Education</h2>
 	<div id="school">
         <h3><p class="place">University of Massachusetts - Amherst</p>
-            <p class="date">September 2012 - May 2015</p></h3>
+            <p class="date">2012 - 2015</p></h3>
     </div>
     <div style="clear: both;"></div>
         
 		<p>Bachelor of Arts in English, with specializations in Professional Writing and Technical Communication (PWTC) and Creative Writing. Graduated <i>cum laude</i>. 3.7 GPA overall.</p>
-        <p>Major classes and projects included:</p>
-        <ul>
+                <button><a href="javascript:toggleContainer('projects')"><span>Click to see major classes and projects.</span></a></button>
+        <div id="projects" style="display:none;">
+            <ul>
             <li><span><b>Introduction to Professional Writing</b>: <a href="/portfolio/grantproposal.pdf">20 page mock grant proposal</a></span></li>
             <li><span><b>Intermediate Technical Writing</b>: <a href="/portfolio/wordmanual.pdf">23 page Microsoft Word manual</a></span></li>
             <li><span><b>Advanced Technical Writing I</b>: <a href="/portfolio/indesignguide.pdf">20 page guide created in InDesign</a>; <a href="/portfolio/chromecast/!SSL!/Responsive_HTML5/First_Topic.htm">RoboHelp webpage</a>; <a href="/portfolio/framemaker.pdf">29 page group FrameMaker manual</a></span></li>
             <li><span><b>Advanced Technical Writing II</b>: independently structured 3D modeling project</span></li>
             <li><span><b>Advanced Software for Professional Writers</b>: <a href="/assignments">HTML and Photoshop projects</a>; portfolio composed in Dreamweaver;<a href="/portfolio/pizza"> protosite</a></span></li>
             <li><span><b>Introduction to Problem Solving w/ Computers</b>: various Java programs, including a Pig Latin converter & anagram tester</span></li>
-        </ul>
-
-    <h2>Skills</h2>
-	<h3>Software Knowledge</h3>
-		<p>Expertise in Adobe Photoshop, Microsoft Word, Excel, PowerPoint, and in operating both Windows and Mac OS. Proficient in HTML, CSS, JavaScript, Final Cut Pro, Blender 3D graphics software, Adobe Dreamweaver, InDesign, FrameMaker, Illustrator, RoboHelp, Flash, and Brackets.</p>
-
-	<div id="nanowrimo">
-        <h3><p class="place">NaNoWriMo</p>
-            <p class="date">November 2008, 09, 10, 11, 12, 13, 14</p></h3>
-    </div>
-    <div style="clear: both;"></div>
-		<p>Successfully completed National Novel Writing Month (NaNoWriMo) seven years running, a contest in which participants are challenged to write a 50,000 word novel within the thirty days of November.</p>
-        
-    <h3>Spanish Language</h3>
-        <p>Intermediate reading and writing ability; some conversational comprehension.</p>
-        
+            </ul>
+        </div>
+                         
 	<h2>Work Experience</h2>
     <div id="copywriter">
         <h3><p class="place">Junior Copywriter, WorldAPP; Braintree, MA</p>
             <p class="date">September 2015 - present</p></h3>
     </div>
     <div style="clear: both;"</div>
-            <p>Work directly with the VP of Marketing and global marketing team to create and edit content surrounding the WorldAPP products, Form.com and Key Survey. Responsible for writing and editing drafts of new webpages, blog posts, social media materials, video scripts, press releases, and sales enablement tools. Tasked with researching ideas and value points for upcoming marketing campaigns, and proofreading outgoing content.</p> 
+            <p>Work directly with the VP of Marketing and global marketing team to create and edit content for the WorldAPP brand and products, Form.com and Key Survey. Responsible for writing and editing: landing pages, one-pagers, email campaigns, blog posts, video scripts, press releases, and various other sales enablement tools. Tasked with researching ideas and value points for upcoming marketing campaigns, and proofreading outgoing content.</p> 
     <div id="contractor">
         <h3><p class="place">Contractor, SimplexGrinnell; Westminster, MA</p>
             <p class="date">July - September 2015</p></h3>
@@ -82,14 +83,15 @@
     </div>
     <div style="clear: both;"></div>
 		<p>Supervised computer labs at W.E.B. Du Bois library and around campus by monitoring technical issues and responding to calls from classroom assistants. Ensured that employees were checked in and on time, and  found coverage for unassigned shifts.  </p>
-        
+        <button><a href="javascript:toggleContainer('work')"><span>Click to see previous positions.</span></a></button>
+        <div id="work" style="display:none;">
     <div id="cc consultant">
         <h3><p class="place">Computer Classroom Assistant, UMass - Amherst</p>
             <p class="date">September 2013 - April 2014</p></h3>
     </div>
     <div style="clear: both;"></div>
     
-    <p>Assisted students and professors with technical issues and concerns in campus computer classrooms. Maintained classroom appearance and kept managers informed on room usage.</p>
+    <p>Assisted students and professors with technical issues and concerns in campus computer labs. Maintained classroom appearance and kept managers informed on room usage.</p>
 
     <div id="wlcc">
         <h3><p class="place">Graphic Designer, Westford-Littleton Crew Club</p>
@@ -103,10 +105,26 @@
         <h3><p class="place">Game Advisor, GameStop; Newington, NH</p>
             <p class="date">November 2011 - January 2012</p></h3>
     </div>
+            
     <div style="clear: both;"></div>
 
 		<p>Retail work with a focus on providing excellent customer service. Assisted with customers with product, pricing, and inventory questions and offered suggestions to ensure a positive in-store experience.</p>
+</div>
+                
+    <h2>Skills</h2>
+	<h3>Software Knowledge</h3>
+		<p>Expertise in Adobe Photoshop, Microsoft Word, Excel, PowerPoint, and in operating both Windows and Mac OS. Proficient in HTML, CSS, JavaScript, Final Cut Pro, Blender 3D graphics software, Adobe Dreamweaver, InDesign, FrameMaker, Illustrator, RoboHelp, Flash, and Brackets.</p>
 
+	<div id="nanowrimo">
+        <h3><p class="place">NaNoWriMo</p>
+            <p class="date">November 2008, 09, 10, 11, 12, 13, 14</p></h3>
+    </div>
+    <div style="clear: both;"></div>
+		<p>Successfully completed National Novel Writing Month (NaNoWriMo) seven years running, a contest in which participants are challenged to write a 50,000 word novel within the thirty days of November.</p>
+        
+    <h3>Spanish Language</h3>
+        <p>Intermediate reading and writing ability; some conversational comprehension.</p>                
+                
     <h2>Awards</h2>
         
     <div id="dean's list">
@@ -129,7 +147,7 @@
     <div style="clear: both;"></div>
         <p>Awarded for the "Best essay on any subject by a woman English major."</p>
         
-        <p class="date">10/17/2015</p>
+        <p class="date">9/9/2016</p>
                 <br>
             </div>
         </div>

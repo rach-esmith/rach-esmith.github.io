@@ -36,9 +36,12 @@ li {
 
 li span {
     color:#6E6E6E;
-
 }
 
+a span {
+    color:#6E6E6E;
+}
+    
 p {
     margin-top: 0.0em;
     font-size: 0.9em;
