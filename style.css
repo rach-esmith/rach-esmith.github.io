@@ -10,13 +10,15 @@ a:visited {color: #3dbdee;text-decoration: none}  /* visited link */
 a:hover {color: #6E6E6E;text-decoration: none}  /* mouse over link */
 a:active {color: #3dbdee;text-decoration: none}  /* selected link */
 
-#nav a:link {color:#47deb5;text-decoration: none}
+#nav a:link {color:#47deb5;text-decoration: none;
+}
 #nav a:visited {color: #47deb5;text-decoration: none}
 #nav a:active {color: #47deb5;text-decoration: none}
 
 #nav li
 {
     float: left;
+    text-transform: lowercase;
     list-style-type: none;
     margin-right: 50px;
     margin-left: 55px;
