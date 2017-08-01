@@ -17,6 +17,7 @@ a:active {color: #3dbdee;text-decoration: none}  /* selected link */
 #nav li
 {
     float: left;
+    list-style-type: none;
     margin-right: 50px;
     margin-left: 55px;
 }
