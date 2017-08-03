@@ -23,7 +23,7 @@ $(document).ready(function () {
 			duration, "linear",
 			function () {
 				$("#copy").fadeIn();
-				$.get("http://localhost:8000/raw.html", function(data) {
+				$.get("/raw.html", function(data) {
 					$("#supercontent").html(data);
 					$("#supercontent").fadeIn(1000);
 				});
