@@ -14,13 +14,13 @@ $(document).ready(function () {
 		
 		$("#navbg").animate({
 			height: "150px"
-		}, duration, "linear");
+		}, duration, "swing");
 		
 		// animate the nav bar up
 		$("#nav").animate({
 				top: "85px",
 			},
-			duration, "linear",
+			duration, "swing",
 			function () {
 				$("#copy").fadeIn();
 				$.get("/raw.html", function(data) {
