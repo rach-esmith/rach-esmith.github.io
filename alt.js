@@ -13,7 +13,8 @@ $(document).ready(function () {
 		var duration = 400;
 		
 		$("#navbg").animate({
-			height: "150px"
+			height: "150px",
+			width: "900px"
 		}, duration, "swing");
 		
 		// animate the nav bar up

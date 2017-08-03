@@ -21,10 +21,13 @@ body
 }
 
 #navbg {
-	background-color: #47deb5;
+	background-color: #00e8b7;
     width: 100%;
 	position: absolute;
 	height: 100%;
+	left: 0;
+	right: 0;
+	margin: auto;
 }
 
 #nav
@@ -147,7 +150,11 @@ li span {
 
 #supercontent
 {
-	padding: 170px;
+	padding-top: 170px;
+	width: 900px;
+	left: 0;
+	right: 0;
+	margin: auto;
 	display: none;
 }
 
