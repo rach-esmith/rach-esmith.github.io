@@ -30,7 +30,6 @@ $(document).ready(function () {
 					
 					$("#supercontent").html(data);
 					$("#supercontent").fadeIn(1000);
-					$("#supercontent").fadeOut(1000);
 				});
 			});
 	});
