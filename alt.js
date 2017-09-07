@@ -9,7 +9,8 @@ $(document).ready(function () {
 
 	// attach click events to nav images
 	$("#navlinks img").click(function () {
-
+		
+		var page = $(this).attr("page")+"_raw.html";
 		var duration = 400;
 		
 		$("#navbg").animate({
@@ -24,9 +25,12 @@ $(document).ready(function () {
 			duration, "swing",
 			function () {
 				$("#copy").fadeIn();
-				$.get("/raw.html", function(data) {
+				$.get(page, function(data) {
+					
+					
 					$("#supercontent").html(data);
 					$("#supercontent").fadeIn(1000);
+					$("#supercontent").fadeOut(1000);
 				});
 			});
 	});

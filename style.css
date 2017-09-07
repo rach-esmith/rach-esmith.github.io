@@ -21,7 +21,7 @@ a:active {color: #3dbdee;text-decoration: none}  /* selected link */
     text-transform: lowercase;
     list-style-type: none;
     margin-right: 50px;
-    margin-left: 55px;
+    margin-left: 150px;
 }
 
 .active, #nav li:hover
