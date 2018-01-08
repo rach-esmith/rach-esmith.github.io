@@ -1,5 +1,55 @@
 /*jslint browser: true*/
 /*global $, jQuery, alert*/
+
+var opened = false;
+
+// just fade in a page
+function fadePage(pageName)
+{
+    var page = pageName+"_raw.html";
+    
+    $.get(page, function(data) {
+
+        $("#supercontent").html(data);
+        $("#supercontent").hide().fadeIn(1000);
+    });
+}
+
+// pull up curtain and/or clicked another link load a new page
+function changePage(pageName)
+{
+    var duration = 400;
+
+    if (!opened)
+    {
+            
+        $("#navbg").animate({
+            height: "150px"
+        }, duration, "swing");
+
+        opened = true;
+
+        // animate the nav bar up
+        $("#nav").animate({
+                top: "85px",
+            },
+            duration, "swing",
+            function () {
+                // when done animating up, fade page in
+                $("#me").fadeIn(500);
+                fadePage(pageName);
+            });
+    }
+    else
+    {
+        // fade out old page
+        $("#supercontent").fadeOut(500, function () {
+            // fade in new page when old page is done fading out
+            fadePage(pageName);
+        });
+    }
+}
+
 $(document).ready(function () {
 
 	// fade in the entire nav bar
@@ -7,30 +57,22 @@ $(document).ready(function () {
 		$("#navlinks").fadeIn();
 	});
 
-	// attach click events to nav images
+	// attach click events to nav images to load new pages
 	$("#navlinks img").click(function () {
-		
-		var page = $(this).attr("page")+"_raw.html";
-		var duration = 400;
-		
-		$("#navbg").animate({
-			height: "150px",
-			width: "900px"
-		}, duration, "swing");
-		
-		// animate the nav bar up
-		$("#nav").animate({
-				top: "85px",
-			},
-			duration, "swing",
-			function () {
-				$("#copy").fadeIn();
-				$.get(page, function(data) {
-					
-					
-					$("#supercontent").html(data);
-					$("#supercontent").fadeIn(1000);
-				});
-			});
+        changePage($(this).attr("page"));
 	});
+
+    // attach/detach fixed class based on scroll
+   $(window).bind('scroll', function() {
+       var navHeight = 99; // $("#navlinks").getBoundingClientRect().top;
+
+       if ($(window).scrollTop() > navHeight) {
+           $("#navlinks").addClass('fixed');
+          $("#me").fadeOut();
+       }
+       else {
+           $("#navlinks").removeClass('fixed');
+         $("#me").fadeIn();
+       }
+    });
 });

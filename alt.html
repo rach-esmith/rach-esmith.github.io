@@ -7,6 +7,17 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
+    <script>
+    function toggleContainer(id)
+    {
+            var elem = document.getElementById(id);
+            if (elem.style.display == "none")
+                    elem.style.display = "block";
+            else
+                    elem.style.display = "none";
+    }
+    </script>
+    
 	<script src="alt.js"></script>
 
 </head>
@@ -19,11 +30,13 @@
 	<div id="nav">
 		<center>
 			<div id="navban">
-				<img class="ban" src="banner1.png" />
+				<img class="ban" src="banner2.png" />
 			</div>
 			<div id="navlinks">
-				<img page="copy" src="copy.png" /><img page="design" src="design.png" /><img page="about" src="about.png" />
+				<img page="resume" src="resume1.png" /><img page="copy" src="portfolio.png" /><img page="about" src="about1.png" />
+                
 			</div>
+            <img id="me" src="pic.png"/>
 		</center>
 	</div>
 	

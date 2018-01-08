@@ -1,15 +1,22 @@
+@font-face {
+    font-family: 'Orator';
+    src: url('OratorStd.otf') format("opentype");
+    font-weight: bold;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 body
 {
-   font-family: Helvetica, Arial, sans-serif;
+   font-family: Open Sans, Helvetica, Arial, sans-serif;
 	margin: 0 auto;
+    background: #c7e7dc;
 }
 
 #navlinks {
     display: none;
 /*	border: 1px solid black;*/
     margin-top: -40px;
-	z-index: 1;
-	width: 300px;
 	position: relative;
 	cursor: pointer;
 
@@ -21,7 +28,8 @@ body
 }
 
 #navbg {
-	background-color: #00e8b7;
+	background-color: white;
+    z-index: 1;
     width: 100%;
 	position: absolute;
 	height: 100%;
@@ -33,6 +41,7 @@ body
 #nav
 {
 	position: absolute;
+    z-index: 2;
 	top: 50%;
 	width: 100%;
 	margin-top: -120px;
@@ -40,13 +49,21 @@ body
 /*	border: 1px solid black;*/
 }
 
-
-
-li
-{
-    padding-bottom: 2px;
-    border-bottom: 3px solid #ffffff;
+/* This class is added on scroll */
+#navlinks.fixed {
+	position: fixed;
+	top: 0;
+    margin-top: 0px;
+    width: 100%;
+	z-index: 3;
+    background-color: white;
 }
+
+button {
+    display: block;
+    margin: auto;
+}
+
 
 .icon
 {
@@ -87,20 +104,46 @@ li
 
 #content p
 {
-    color: #6E6E6E;
+    color: #252727;
     line-height: 23px;
+    font-size: 14px;
+}
+
+h1
+{
+    font-family: Orator;
+    font-size: 24px;
+    color: #fff;
 }
 
 h2 {
-    color:#47deb5;
-    margin-top: 1.0em;
+    font-family: Orator;
+    color: #ffffff;
+    margin-top: 0px;
     margin-bottom: -0.4em;
+    text-align: center;
+    font-size: 45px;
 }
 
-h3.writing
+h3
 {
-    color:#6E6E6E;
-    margin-bottom: -0.4em;
+    font-family: Orator;
+    color: #252727;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+h3.resume {
+    text-align: left;
+    font-size: 20px;
+}
+
+ul {
+    margin-left: -30px;
+    color: #252727;
+    line-height: 23px;
+    font-size: 14px;
 }
 
 li {
@@ -108,7 +151,7 @@ li {
 }
 
 li span {
-    color:#6E6E6E;
+    color:#000;
 
 }
 
@@ -151,11 +194,10 @@ li span {
 #supercontent
 {
 	padding-top: 170px;
-	width: 900px;
 	left: 0;
 	right: 0;
 	margin: auto;
-	display: none;
+/*	display: none;*/
 }
 
 #content
@@ -163,9 +205,14 @@ li span {
 /*    margin: 20px;*/
     margin-bottom: 5px;
     padding: 20px;
-    border-top: 2px solid #47deb5;
-    border-bottom: 2px solid #47deb5;
 /*    height: 1000px;*/
+}
+
+#page
+{
+    width: 470px;
+    margin: auto;
+    text-align: justify;
 }
 
 #main
@@ -178,8 +225,22 @@ li span {
 
 #me
 {
-    float: right;
-    margin-left: 10px;
+    display: none;
+    float: left;
+    margin-left: 130px;
+    margin-top: -75px;
+    border-radius: 50%;
+    border: 6px solid white;
+    height: 150px;
+    width: 150px;
+    z-index: 20;
+}
+
+img.blogs {
+    float: left;
+    margin-right: 10px;
+    filter: grayscale(25%);
+    border: 6px solid white;
 }
 
 #banner
@@ -191,14 +252,49 @@ li span {
     height:30px;
 }
 
+.place {
+    font-style: oblique;
+    font-family: Orator;
+}
+
+.date 
+{
+    font-size: 16px;
+    font-family: Orator;
+}
+
+.skills 
+{
+    font-size: 12px;
+    font-family: Orator;
+}
+
+#des {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: -30px;
+}
+
+#assignments p {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.center
+{
+    text-align: center;
+}
 
 
-
-
-a:link {color:#3dbdee;text-decoration: none}      /* unvisited link */
-a:visited {color: #3dbdee;text-decoration: none}  /* visited link */
-a:hover {color: #6E6E6E;text-decoration: none}  /* mouse over link */
-a:active {color: #3dbdee;text-decoration: none}  /* selected link */
+a:link {color: #6f6f6f;
+    text-decoration: none;
+    font-family: Orator;
+    text-transform: uppercase;}      /* unvisited link */
+a:visited {color: #6e6e6e;text-decoration: none}  /* visited link */
+a:hover {    color: #6E6E6E;
+    text-decoration: none;
+    font-style: oblique;}  /* mouse over link */
+a:active {color: #fff;text-decoration: none}  /* selected link */
 
 #nav a:link {color:#47deb5;text-decoration: none;
 }
