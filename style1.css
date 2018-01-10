@@ -107,6 +107,7 @@ button {
     color: #252727;
     line-height: 23px;
     font-size: 14px;
+    margin-top: 10px;
 }
 
 h1
@@ -134,10 +135,6 @@ h3
     margin-top: 40px;
 }
 
-h3.resume {
-    text-align: left;
-    font-size: 20px;
-}
 
 ul {
     margin-left: -30px;
@@ -152,7 +149,14 @@ li {
 
 li span {
     color:#000;
+}
 
+#images {
+    margin-left: 120px;
+}
+
+#images img {
+    width: 300px;
 }
 
 .gallery_cell     a {color: #6E6E6E;}
@@ -255,12 +259,25 @@ img.blogs {
 .place {
     font-style: oblique;
     font-family: Orator;
+    font-size: 20px;
+    text-align: left;
 }
 
 .date 
 {
     font-size: 16px;
     font-family: Orator;
+    text-align: left;
+}
+
+.update {
+    font-size: 16px;
+    font-family: Orator;
+    text-align: right;
+}
+
+.resume {
+    margin-top: 25px;
 }
 
 .skills 
@@ -279,6 +296,13 @@ img.blogs {
     margin-bottom: 5px;
     margin-top: 5px;
 }
+
+
+hr {
+    border: 1px dotted white;
+    margin-top: 20px;
+}
+
 
 .center
 {
@@ -300,3 +324,131 @@ a:active {color: #fff;text-decoration: none}  /* selected link */
 }
 #nav a:visited {color: #47deb5;text-decoration: none}
 #nav a:active {color: #47deb5;text-decoration: none}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 22%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 4;
+  padding-top: 50px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #000000c7;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 60%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: fixed;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: black;
+  font-weight: bold;
+  font-size: 60px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
