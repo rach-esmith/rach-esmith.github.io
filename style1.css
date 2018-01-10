@@ -6,19 +6,18 @@
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-body
-{
-   font-family: Open Sans, Helvetica, Arial, sans-serif;
-	margin: 0 auto;
+body {
+    font-family: Open Sans, Helvetica, Arial, sans-serif;
+    margin: 0 auto;
     background: #c7e7dc;
 }
 
 #navlinks {
     display: none;
-/*	border: 1px solid black;*/
+    /*	border: 1px solid black;*/
     margin-top: -40px;
-	position: relative;
-	cursor: pointer;
+    position: relative;
+    cursor: pointer;
 
 }
 
@@ -28,90 +27,91 @@ body
 }
 
 #navbg {
-	background-color: white;
+    background-color: white;
     z-index: 1;
     width: 100%;
-	position: absolute;
-	height: 100%;
-	left: 0;
-	right: 0;
-	margin: auto;
+    position: absolute;
+    height: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
-#nav
-{
-	position: absolute;
+#nav {
+    position: absolute;
     z-index: 2;
-	top: 50%;
-	width: 100%;
-	margin-top: -120px;
-	height: 240px;
-/*	border: 1px solid black;*/
+    top: 50%;
+    width: 100%;
+    margin-top: -120px;
+    height: 240px;
+    /*	border: 1px solid black;*/
 }
 
 /* This class is added on scroll */
+
 #navlinks.fixed {
-	position: fixed;
-	top: 0;
+    position: fixed;
+    top: 0;
     margin-top: 0px;
     width: 100%;
-	z-index: 3;
+    z-index: 3;
     background-color: white;
 }
 
 button {
     display: block;
     margin: auto;
+    background: none;
+    border: 1px dashed #908f8f;
+    font-family: Orator;
+    text-transform: lowercase;
+    font-size: 13px;
+    color: #908f8f;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    border-radius: 5px;
+    padding-bottom: 1px;
 }
 
 
-.icon
-{
+.icon {
     width: 250px;
     height: 145px;
     margin: 15px;
     border: 1px solid #cccccc;
 }
 
-.cover
-{
+.cover {
     width: 200px;
     margin: 15px;
     border: 1px solid #cccccc;
 }
 
-.portfolioCoverDiv
-{
+.portfolioCoverDiv {
     float: left;
 }
 
-.portfolioDescriptionDiv
-{
+.portfolioDescriptionDiv {
     float: left;
     margin-top: 20px;
     width: 190px;
     text-align: left;
 }
 
-.portfolioDescriptionDiv a
-{
-}
+.portfolioDescriptionDiv a {}
 
-.portfolioDescriptionDiv p
-{
+.portfolioDescriptionDiv p {
     font-size: 12px;
 }
 
-#content p
-{
+#content p {
     color: #252727;
     line-height: 23px;
     font-size: 14px;
     margin-top: 10px;
 }
 
-h1
-{
+h1 {
     font-family: Orator;
     font-size: 24px;
     color: #fff;
@@ -126,8 +126,13 @@ h2 {
     font-size: 45px;
 }
 
-h3
-{
+h3.copy {
+    margin-top: 10px;
+    margin-bottom: -0.4em;
+    
+}
+
+h3 {
     font-family: Orator;
     color: #252727;
     font-size: 24px;
@@ -144,11 +149,28 @@ ul {
 }
 
 li {
-    color:#47deb5;
+    color: #47deb5;
 }
 
 li span {
-    color:#000;
+    color: #000;
+}
+
+.samples {
+    margin-bottom: 10px;
+}
+
+.samples p {
+    margin-bottom: 2px;
+    font-style: oblique;
+    font-family: Orator;
+    font-size: 20px;
+    text-align: left;
+}
+
+#works {
+    margin-left: 120px;
+    margin-right: 120px;
 }
 
 #images {
@@ -159,17 +181,17 @@ li span {
     width: 300px;
 }
 
-.gallery_cell     a {color: #6E6E6E;}
-
-.gallery_cell:hover
-{
-  border: 1px solid #47deb5;
+.gallery_cell a {
+    color: #6E6E6E;
 }
 
-.gallery_cell
-{
+.gallery_cell:hover {
+    border: 1px solid #47deb5;
+}
+
+.gallery_cell {
     text-align: center;
-    float:left;
+    float: left;
     padding-bottom: 7px;
     margin-bottom: 10px;
     height: 193px;
@@ -178,15 +200,13 @@ li span {
 }
 
 
-.portfolio_cell:hover
-{
-  border: 1px solid #47deb5;
+.portfolio_cell:hover {
+    border: 1px solid #47deb5;
 }
 
-.portfolio_cell
-{
+.portfolio_cell {
     text-align: center;
-    float:left;
+    float: left;
     padding-bottom: 7px;
     margin-bottom: 10px;
     width: 425px;
@@ -195,40 +215,35 @@ li span {
     height: 292px;
 }
 
-#supercontent
-{
-	padding-top: 170px;
-	left: 0;
-	right: 0;
-	margin: auto;
-/*	display: none;*/
+#supercontent {
+    padding-top: 170px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    /*	display: none;*/
 }
 
-#content
-{
-/*    margin: 20px;*/
+#content {
+    /*    margin: 20px;*/
     margin-bottom: 5px;
     padding: 20px;
-/*    height: 1000px;*/
+    /*    height: 1000px;*/
 }
 
-#page
-{
+#page {
     width: 470px;
     margin: auto;
     text-align: justify;
 }
 
-#main
-{
+#main {
     width: 900px;
     margin: 0 auto;
     padding: 15px;
     border: 1px solid #e8e8e8;
 }
 
-#me
-{
+#me {
     display: none;
     float: left;
     margin-left: 130px;
@@ -247,13 +262,12 @@ img.blogs {
     border: 6px solid white;
 }
 
-#banner
-{
+#banner {
     margin: 0 auto;
 }
 
 .icons {
-    height:30px;
+    height: 30px;
 }
 
 .place {
@@ -263,8 +277,7 @@ img.blogs {
     text-align: left;
 }
 
-.date 
-{
+.date {
     font-size: 16px;
     font-family: Orator;
     text-align: left;
@@ -280,8 +293,7 @@ img.blogs {
     margin-top: 25px;
 }
 
-.skills 
-{
+.skills {
     font-size: 12px;
     font-family: Orator;
 }
@@ -304,151 +316,191 @@ hr {
 }
 
 
-.center
-{
+.center {
     text-align: center;
 }
 
 
-a:link {color: #6f6f6f;
+a:link {
+    color: #6f6f6f;
     text-decoration: none;
     font-family: Orator;
-    text-transform: uppercase;}      /* unvisited link */
-a:visited {color: #6e6e6e;text-decoration: none}  /* visited link */
-a:hover {    color: #6E6E6E;
-    text-decoration: none;
-    font-style: oblique;}  /* mouse over link */
-a:active {color: #fff;text-decoration: none}  /* selected link */
-
-#nav a:link {color:#47deb5;text-decoration: none;
+    text-transform: uppercase;
 }
-#nav a:visited {color: #47deb5;text-decoration: none}
-#nav a:active {color: #47deb5;text-decoration: none}
 
+a:visited {
+    color: #6e6e6e;
+    text-decoration: none
+}
+
+a:hover {
+    color: #6E6E6E;
+    text-decoration: none;
+    font-style: oblique;
+}
+
+a:active {
+    color: #fff;
+    text-decoration: none
+}
+
+#nav a:link {
+    color: #47deb5;
+    text-decoration: none;
+}
+
+#nav a:visited {
+    color: #47deb5;
+    text-decoration: none
+}
+
+#nav a:active {
+    color: #47deb5;
+    text-decoration: none
+}
+
+#myModal a:hover {
+    font-style: normal;
+}
 
 .row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+#works .column {
+    flex: 25%;
+    padding: 0 4px;
 }
 
 /* Create four equal columns that sits next to each other */
-.column {
-  flex: 25%;
-  max-width: 22%;
-  padding: 0 4px;
+
+#images .column {
+    flex: 25%;
+    max-width: 22%;
+    padding: 0 4px;
 }
 
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
+#images .column img {
+    margin-top: 8px;
+    vertical-align: middle;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
+
 @media (max-width: 800px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
 @media (max-width: 600px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
 }
 
 /* The Modal (background) */
+
 .modal {
-  display: none;
-  position: fixed;
-  z-index: 4;
-  padding-top: 50px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: #000000c7;
+    display: none;
+    position: fixed;
+    z-index: 4;
+    padding-top: 50px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #000000c7;
 }
 
 /* Modal Content */
+
 .modal-content {
-  position: relative;
-  background-color: #fefefe;
-  margin: auto;
-  padding: 0;
-  width: 60%;
-  max-width: 1200px;
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 60%;
+    max-width: 1200px;
 }
 
 /* The Close Button */
+
 .close {
-  color: white;
-  position: fixed;
-  top: 10px;
-  right: 25px;
-  font-size: 35px;
-  font-weight: bold;
+    color: white;
+    position: fixed;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
 }
 
 .close:hover,
 .close:focus {
-  color: #999;
-  text-decoration: none;
-  cursor: pointer;
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 /* Hide the slides by default */
+
 .mySlides {
-  display: none;
+    display: none;
 }
 
 /* Next & previous buttons */
+
 .prev,
 .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: black;
-  font-weight: bold;
-  font-size: 60px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: black;
+    font-weight: bold;
+    font-size: 60px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
 }
 
 /* Position the "next button" to the right */
+
 .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+    right: 0;
+    border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
+
 .prev:hover,
 .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 img.demo {
-  opacity: 0.6;
+    opacity: 0.6;
 }
 
 .active,
 .demo:hover {
-  opacity: 1;
+    opacity: 1;
 }
 
 img.hover-shadow {
-  transition: 0.3s
+    transition: 0.3s
 }
 
 .hover-shadow:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }

@@ -4,11 +4,10 @@
 var opened = false;
 
 // just fade in a page
-function fadePage(pageName)
-{
-    var page = pageName+"_raw.html";
-    
-    $.get(page, function(data) {
+function fadePage(pageName) {
+    var page = pageName + "_raw.html";
+
+    $.get(page, function (data) {
 
         $("#supercontent").html(data);
         $("#supercontent").hide().fadeIn(1000);
@@ -16,13 +15,11 @@ function fadePage(pageName)
 }
 
 // pull up curtain and/or clicked another link load a new page
-function changePage(pageName)
-{
+function changePage(pageName) {
     var duration = 400;
 
-    if (!opened)
-    {
-            
+    if (!opened) {
+
         $("#navbg").animate({
             height: "150px"
         }, duration, "swing");
@@ -39,9 +36,7 @@ function changePage(pageName)
                 $("#me").fadeIn(500);
                 fadePage(pageName);
             });
-    }
-    else
-    {
+    } else {
         // fade out old page
         $("#supercontent").fadeOut(500, function () {
             // fade in new page when old page is done fading out
@@ -52,27 +47,26 @@ function changePage(pageName)
 
 $(document).ready(function () {
 
-	// fade in the entire nav bar
-	$("#navban").fadeIn(1500, "linear", function () {
-		$("#navlinks").fadeIn();
-	});
+    // fade in the entire nav bar
+    $("#navban").fadeIn(1500, "linear", function () {
+        $("#navlinks").fadeIn();
+    });
 
-	// attach click events to nav images to load new pages
-	$("#navlinks img").click(function () {
+    // attach click events to nav images to load new pages
+    $("#navlinks img").click(function () {
         changePage($(this).attr("page"));
-	});
+    });
 
     // attach/detach fixed class based on scroll
-   $(window).bind('scroll', function() {
-       var navHeight = 99; // $("#navlinks").getBoundingClientRect().top;
+    $(window).bind('scroll', function () {
+        var navHeight = 99; // $("#navlinks").getBoundingClientRect().top;
 
-       if ($(window).scrollTop() > navHeight) {
-           $("#navlinks").addClass('fixed');
-          $("#me").fadeOut();
-       }
-       else {
-           $("#navlinks").removeClass('fixed');
-         $("#me").fadeIn();
-       }
+        if ($(window).scrollTop() > navHeight) {
+            $("#navlinks").addClass('fixed');
+            $("#me").fadeOut();
+        } else {
+            $("#navlinks").removeClass('fixed');
+            $("#me").fadeIn();
+        }
     });
 });
