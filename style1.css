@@ -18,7 +18,6 @@ body {
     margin-top: -40px;
     position: relative;
     cursor: pointer;
-
 }
 
 #navban {
@@ -277,6 +276,10 @@ a:hover {
 a:active {
     color: #fff;
     text-decoration: none
+}
+
+#images:hover {
+    cursor: pointer;
 }
 
 #nav a:link {
