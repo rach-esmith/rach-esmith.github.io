@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Orator';
-    src: url('OratorStd.otf') format("opentype");
+    src: url('/files/OratorStd.otf') format("opentype");
     font-weight: bold;
 }
 
@@ -44,7 +44,6 @@ body {
     width: 100%;
     margin-top: -120px;
     height: 240px;
-    /*	border: 1px solid black;*/
 }
 
 /* This class is added on scroll */
@@ -79,29 +78,6 @@ button {
     height: 145px;
     margin: 15px;
     border: 1px solid #cccccc;
-}
-
-.cover {
-    width: 200px;
-    margin: 15px;
-    border: 1px solid #cccccc;
-}
-
-.portfolioCoverDiv {
-    float: left;
-}
-
-.portfolioDescriptionDiv {
-    float: left;
-    margin-top: 20px;
-    width: 190px;
-    text-align: left;
-}
-
-.portfolioDescriptionDiv a {}
-
-.portfolioDescriptionDiv p {
-    font-size: 12px;
 }
 
 #content p {
@@ -181,40 +157,6 @@ li span {
     width: 300px;
 }
 
-.gallery_cell a {
-    color: #6E6E6E;
-}
-
-.gallery_cell:hover {
-    border: 1px solid #47deb5;
-}
-
-.gallery_cell {
-    text-align: center;
-    float: left;
-    padding-bottom: 7px;
-    margin-bottom: 10px;
-    height: 193px;
-    color: #6E6E6E;
-    border: 1px solid white;
-}
-
-
-.portfolio_cell:hover {
-    border: 1px solid #47deb5;
-}
-
-.portfolio_cell {
-    text-align: center;
-    float: left;
-    padding-bottom: 7px;
-    margin-bottom: 10px;
-    width: 425px;
-    color: #6E6E6E;
-    border: 1px solid white;
-    height: 292px;
-}
-
 #supercontent {
     padding-top: 170px;
     left: 0;
@@ -234,13 +176,6 @@ li span {
     width: 470px;
     margin: auto;
     text-align: justify;
-}
-
-#main {
-    width: 900px;
-    margin: 0 auto;
-    padding: 15px;
-    border: 1px solid #e8e8e8;
 }
 
 #me {
