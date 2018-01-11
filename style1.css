@@ -372,11 +372,12 @@ a:active {
 #works .column {
     flex: 25%;
     padding: 0 4px;
+    max-width: none;
 }
 
 /* Create four equal columns that sits next to each other */
 
-#images .column {
+.column {
     flex: 25%;
     max-width: 22%;
     padding: 0 4px;
