@@ -79,6 +79,10 @@ button {
     border: 1px solid #cccccc;
 }
 
+#email {
+    margin-top: 5px;
+}
+
 #content p {
     color: #252727;
     line-height: 23px;
@@ -140,7 +144,10 @@ li span {
     font-style: oblique;
     font-family: Orator;
     font-size: 20px;
-    text-align: left;
+}
+
+.samples#emailsample {
+    text-align: center;
 }
 
 #works {
